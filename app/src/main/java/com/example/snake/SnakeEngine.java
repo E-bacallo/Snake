@@ -46,7 +46,7 @@ class SnakeEngine extends SurfaceView implements Runnable {
     private int bobY;
 
     // The size in pixels of a snake segment
-    private int blockSize;
+    private final int blockSize;
 
     // The size in segments of the playable area
     private final int NUM_BLOCKS_WIDE = 40;
